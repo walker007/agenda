@@ -1,0 +1,19 @@
+.botao{
+    padding: 5px;
+    border-radius: 7px;
+    border: none;
+    background-color: #242424;
+    color: #FFF;
+    text-align: center;
+    font-size: 0.8em;
+
+    cursor: pointer;
+}
+
+.success{
+    background-color: #50ff90;
+}
+
+.danger{
+    background-color: #ff4848;
+}

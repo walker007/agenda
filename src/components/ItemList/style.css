@@ -1,0 +1,21 @@
+
+.list-item{
+    display: flex;
+    gap: 10px;
+}
+
+.list-item:not(:first-child){
+    margin-top: 5px;
+}
+
+.list-item:not(:last-child){
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 5px;
+}
+
+.acoes{
+    display: flex;
+    gap: 3px;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
