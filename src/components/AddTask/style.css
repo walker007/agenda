@@ -2,11 +2,33 @@
     display: flex;
     flex-direction: column;
     padding-bottom: 5px;
+    color: #000;
+}
+
+.form-group > input {
+    border-radius: 7px;
+    padding: 4px;
+    border: none;
+    font-family: Roboto, sans-serif;
+    background-color: #949494;
+    color: #fff;
 }
 
 .addTask-container{
     align-self: center;
-    justify-self: center;
     padding-bottom: 15px;
+
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+    align-items: flex-end;
+    
+    min-width: 350px;
+
+    padding: 4px;
+    border-radius: 7px;
+    background-color: #fff;
+    box-shadow: #c3c3c3 5px 3px 15px;
+    margin-bottom: 20px;
 
 }
